@@ -1,2 +1,2 @@
-# stock-market-sentiment-analysis-using-bert
+# SMood
 Building stock market sentiment analysis application using BERT.
