@@ -28,3 +28,4 @@ jobs:
           DB_HOST: ${{ secrets.DB_HOST }}
           DB_PORT: ${{ secrets.DB_PORT }}
         run: python ticker_extraction.py
+        working-directory: main
