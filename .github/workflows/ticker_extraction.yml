@@ -3,7 +3,6 @@ name: Ticker Extraction and Storage
 on:
   workflow_dispatch:
 
-
 jobs:
   extract_and_store_tickers:
     runs-on: ubuntu-latest
