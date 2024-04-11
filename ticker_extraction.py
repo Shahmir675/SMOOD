@@ -32,14 +32,16 @@ tickers = [ticker.replace('.', '-') for ticker in tickers]
 
 data = list(zip(tickers, companies))
 
-delete_query = "DELETE FROM Stocks"
+delete_headlines_query = "DELETE FROM headlines"
+delete_stocks_query = "DELETE FROM Stocks"
 insert_query = "INSERT INTO Stocks (Ticker, Stock_Name) VALUES (%s, %s)"
 
 conn = get_connection()
 cur = conn.cursor()
 
 try:
-    cur.execute(delete_query)
+    cur.execute(delete_headlines_query)
+    cur.execute(delete_stocks_query)
     cur.executemany(insert_query, data)
     conn.commit()
     print("Data insertion successful.")
