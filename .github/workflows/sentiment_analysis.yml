@@ -29,15 +29,15 @@ jobs:
           pip install gdown
           pip install jupyter
 
-      - name: Run headlines_extraction notebook
+      - name: Run headlines_extraction
         env:
           DB_NAME: ${{ secrets.DB_NAME }}
           DB_USER: ${{ secrets.DB_USER }}
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
           DB_HOST: ${{ secrets.DB_HOST }}
           DB_PORT: ${{ secrets.DB_PORT }}
-        run: jupyter nbconvert --execute --ExecutePreprocessor.timeout=0 headlines_extraction.ipynb
-
+        run: python headlines_extraction.py
+        
       - name: Run inference notebook
         env:
           DB_NAME: ${{ secrets.DB_NAME }}
@@ -45,4 +45,4 @@ jobs:
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
           DB_HOST: ${{ secrets.DB_HOST }}
           DB_PORT: ${{ secrets.DB_PORT }}
-        run: jupyter nbconvert --execute --ExecutePreprocessor.timeout=0 inference.ipynb
+        run: python inference.py
