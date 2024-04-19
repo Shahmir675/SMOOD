@@ -30,7 +30,19 @@ jobs:
           pip install jupyter
 
       - name: Run headlines_extraction notebook
+        env:
+          DB_NAME: ${{ secrets.DB_NAME }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_PORT: ${{ secrets.DB_PORT }}
         run: jupyter nbconvert --execute --to notebook --inplace headlines_extraction.ipynb
 
       - name: Run inference notebook
+        env:
+          DB_NAME: ${{ secrets.DB_NAME }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_PORT: ${{ secrets.DB_PORT }}
         run: jupyter nbconvert --execute --to notebook --inplace inference.ipynb
