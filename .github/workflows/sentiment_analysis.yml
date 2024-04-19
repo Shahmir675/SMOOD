@@ -36,7 +36,7 @@ jobs:
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
           DB_HOST: ${{ secrets.DB_HOST }}
           DB_PORT: ${{ secrets.DB_PORT }}
-        run: jupyter nbconvert --execute --to notebook --inplace headlines_extraction.ipynb
+        run: jupyter nbconvert --execute --ExecutePreprocessor.timeout=0 headlines_extraction.ipynb
 
       - name: Run inference notebook
         env:
@@ -45,4 +45,4 @@ jobs:
           DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
           DB_HOST: ${{ secrets.DB_HOST }}
           DB_PORT: ${{ secrets.DB_PORT }}
-        run: jupyter nbconvert --execute --to notebook --inplace inference.ipynb
+        run: jupyter nbconvert --execute --ExecutePreprocessor.timeout=0 inference.ipynb
