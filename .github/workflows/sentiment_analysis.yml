@@ -27,6 +27,7 @@ jobs:
           pip install transformers
           pip install tqdm
           pip install gdown
+          pip install jupyter
 
       - name: Run headlines_extraction notebook
         run: jupyter nbconvert --execute --to notebook --inplace headlines_extraction.ipynb
