@@ -1,4 +1,5 @@
 # SMOOD
+## Introduction
 In today's dynamic financial world, staying ahead in the stock market requires a lot of different skills. It demands insight of previous trends, foresight on future trends, and an understanding of the market sentiment. To make the task a lot more easier, we introduce **SMOOD**, a comprehensive stock sentiment analysis app designed to aid investors, market analysts, researchers, businesses and financial advisors with practical insights derived from the collective mood of the market.
 <br>
 <br>
