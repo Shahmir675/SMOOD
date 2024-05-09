@@ -33,6 +33,6 @@ Using the FinBERT model, we can accurately predict market sentiment by aggregati
 ## 6. Proposed Workflow
 The proposed workflow for the project can very broadly be divided into following phases:
 ### 6.1 Data Science Phase
-The process starts with the fetching of individual stock tickers listed on the S&P 500 index. These are fetched from [Slickcharts.com] (https://www.slickcharts.com/), and stored in Supabase instance for later retrieval. 
+The process starts with the fetching of individual stock tickers listed on the S&P 500 index. These are fetched from [Slickcharts.com](https://www.slickcharts.com/), and stored in Supabase instance for later retrieval. 
 After the collection of news headlines, these stocks are 
 
