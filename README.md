@@ -36,14 +36,19 @@ Using the FinBERT model, we can accurately predict market sentiment by aggregati
 ## 6. Proposed Workflow
 The proposed workflow for the project can very broadly be divided into following phases:
 ### 6.1 Data Science Phase
-The process starts with the fetching of individual stock tickers listed on the S&P 500 index. These are fetched from [Slickcharts.com](https://www.slickcharts.com/), and stored in Supabase instance for later retrieval. 
+The process starts with the fetching of individual stock tickers listed on the S&P 500 index. These would be fetched from [Slickcharts.com](https://www.slickcharts.com/), and stored in Supabase instance for later retrieval. 
 <br>
 <br>
-After the collection of stock tickers, the tickers are used to fetch headlines via the [FinVizFinance API](https://pypi.org/project/finvizfinance/). These headlines are sorted in terms of daily, weekly and monthly news and stored in the database. 
+After the collection of stock tickers, the tickers would be used to fetch headlines via the [FinVizFinance API](https://pypi.org/project/finvizfinance/). These headlines would sorted in terms of daily, weekly and monthly news and stored in the database. 
 <br>
 <br>
-Next up, the FinBERT model is fine-tuned on semi-supervised data by first applying [FinVADER](https://github.com/PetrKorab/FinVADER) to assign pseudo-labels on small subset of the dataset. These labels are then used for fine-tuning the base model. Results showed significant performance improvement for financial sentiment analysis, up to 10x on financial phrasebank data.
+Next up, the FinBERT model would be fine-tuned on semi-supervised data by first applying [FinVADER](https://github.com/PetrKorab/FinVADER) to assign pseudo-labels on small subset of the dataset. These labels would then be used for fine-tuning the base model. Tools like PyTorch (for building the model, datasets and tokenizers), Psycopg2 (for interacting with Supabase instance), HuggingFace Transformers library (for FinBERT) would be used.
 <br>
 <br>
-This model is then used to infer the sentiment on the headlines stored in the database and then update the sentiments of each headlines, as well as the aggregated sentiments of each company over daily, weekly and monthly periods.
-
+This model would then be used to infer the sentiment on the headlines stored in the database and then update the sentiments of each headlines, as well as the aggregated sentiments of each company over daily, weekly and monthly periods.
+### 6.4 Integration Phase
+The integration phase in the development of SMood would be a crucial step where the components from various phases would be brought together to create a functional application. This phase would involve integrating the Supabase instance containing the financial sentiments into the backend infrastructure. The frontend interface would then be connected to the backend APIs, ensuring seamless communication and data exchange between the frontend and backend components. 
+### 6.5 Testing Phase
+The testing phase in the development of SMood would be significant in ensuring its reliability, functionality, and performance. This phase would involve a series of rigorous assessments to validate the behavior of the application and ensure that it meets the specified requirements. 
+## 7.	Conclusion
+In conclusion, SMood represents a powerful tool for understanding market sentiment trends, encouraging users to make informed decisions in the dynamic world of finance. By leveraging advanced technologies such as Transformer-based architectures such as BERT, SMood automates the analysis of textual data from headlines, providing real-time insights into market sentiments.  Ultimately, SMood equips users with valuable insights to enhance their decision-making processes, mitigate risks, and capitalize on opportunities in dynamic market environments.
