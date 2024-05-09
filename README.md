@@ -55,7 +55,6 @@ In conclusion, SMood represents a powerful tool for understanding market sentime
 ## 8. Limitations
 The project suffers from the following limitations:
 <br>
-<br>
 - Most of the APIs used for this application were free versions of the paid solutions and thus suffer from slow requests, errors, exceptions and resource exhaustion.
 - The given resources were not efficient for building the project in a small timeframe. However, the focus was on teamwork, learning and testing the capabilities.
 - The project could leverage the market sentiment to also predict the prices of each stock. However, this added a layer of complexity and use of more advanced models that required more resources.
