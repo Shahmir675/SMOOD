@@ -34,5 +34,12 @@ Using the FinBERT model, we can accurately predict market sentiment by aggregati
 The proposed workflow for the project can very broadly be divided into following phases:
 ### 6.1 Data Science Phase
 The process starts with the fetching of individual stock tickers listed on the S&P 500 index. These are fetched from [Slickcharts.com](https://www.slickcharts.com/), and stored in Supabase instance for later retrieval. 
-After the collection of news headlines, these stocks are 
-
+<br>
+<br>
+After the collection of stock tickers, the tickers are used to fetch headlines via the [FinVizFinance API](https://pypi.org/project/finvizfinance/). These headlines are sorted in terms of daily, weekly and monthly news and stored in the database. 
+<br>
+<br>
+Next up, the FinBERT model is fine-tuned on semi-supervised data by first applying [FinVADER](https://github.com/PetrKorab/FinVADER) to assign pseudo-labels on small subset of the dataset. These labels are then used for fine-tuning the base model. Results showed significant performance improvement for financial sentiment analysis, up to 10x on financial phrasebank data.
+<br>
+<br>
+This model is then used to infer the sentiment on the headlines stored in the database and then update the sentiments of each headlines, as well as the aggregated sentiments of each company over daily, weekly and monthly periods.
