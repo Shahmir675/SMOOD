@@ -10,7 +10,6 @@ SMood uses the power of FinBERT, a LLM and an extension of the BERT model for fi
 In today’s ever-changing landscape of financial markets, accurately gauging and measuring market feedback is a crucial skill for any investor, financial advisor, trader or market researcher. However, since the advent of the internet the data has grown exponentially in size. Therefore, it is difficult to analyze the vast majority of news, twitter posts and financial reports to make an accurate decision. Manual analysis of the data in this way can lead to errors, bias or overheads, because the nature of capital markets is dynamic and prone to change quickly. Hence, there is an ever-growing need for automated market sentiment analysis systems that can efficiently process and analyze large volumes of textual data to provide timely and actionable insights into market sentiment trends and their potential impact on market movements. 
 <br>
 ## Objectives
-4.	Objectives
 SMood aims to achieve the following objectives:
 ●	Automated Sentiment Analysis: SMood will be able to perform automated sentiment analysis over a period to provide market sentiment of a stock using Natural Language Processing techniques.
 ●	Real-Time Analysis: SMood will analyze the data in real-time over a specific period, ensuring that it captures the market sentiment with maximum possible accuracy.
