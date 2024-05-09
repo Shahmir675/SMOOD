@@ -9,6 +9,8 @@ SMOOD uses the power of FinBERT, a LLM and an extension of the BERT model for fi
 ## 2. Background of Existing Systems
 Sentiment Analysis is a technique that finds its application in various areas, including recommender systems, financial markets, social media monitoring among others. 
 Some existing approaches to tackling the problem of financial market sentiment analysis includes lexicon-based approach, which relies on predefined sentiment dictionaries. Textual data is analyzed by matching words from the lexicon to those in the text and aggregating sentiment scores.
+<br>
+<br>
 ![Evolution of Financial Sentiment Analysis and accuracy of each method](https://miro.medium.com/v2/resize:fit:1400/1*qfZQKnUmFDxTrlUJQApKWg.png)
 <br>
 <br>
