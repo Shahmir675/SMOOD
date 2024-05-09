@@ -50,6 +50,11 @@ This model would then be used to infer the sentiment on the headlines stored in 
 The SMOOD project uses Node.js with express.js and axios to fetch data and operate with APIs. A lot of well reputed npm packages have been used to facilitate the smooth and simple flow of the web-application. Vite is used as a development server to enhance the backend features of the application. Vite uses a faster build process and a unique approach to code splitting, which results in faster build times and faster load times for the end-user.
 <br>
 <br>
+### 6.3 Frontend Phase
+ReactJS is used to render the SMOOD web-application. Advanced concepts of ReactJS are used to make the application visually appealing, while maintaining the cleanliness of code. Many well known and globally reputed ReactJS libraries are used such as react-bootstrap, react-router-dom, ChartJS, ApexCharts etc. All these libraries working together ensures a well working frontend. 
+<br>
+<br>
+Moreover, the ReactJS hooks are the saviours of any react application. React Itself is a really powerful frontend tool. It is the prime component of the SMOOD project, as it does most of the rendering operations and works flawlessly.
 Furthermore, the web-application utilizes PostgresSQL database and AWS cloud services for fetching the news and sentiment for the S&P 500 index. 
 ### 6.4 Integration Phase
 The integration phase in the development of SMOOD would be a crucial step where the components from various phases would be brought together to create a functional application. This phase would involve integrating the Supabase instance containing the financial sentiments into the backend infrastructure. The frontend interface would then be connected to the backend APIs, ensuring seamless communication and data exchange between the frontend and backend components. 
