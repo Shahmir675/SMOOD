@@ -1,5 +1,5 @@
 # SMOOD
-SMood is a sentiment analysis web application for S&P 500 stocks using PyTorch, Transformers, React, Axios and Redux.
+SMOOD is a sentiment analysis web application for S&P 500 stocks using PyTorch, Transformers, React, Axios and Redux.
 ## 1. Introduction
 In today's dynamic financial world, staying ahead in the stock market requires a lot of different skills. It demands insight of previous trends, foresight on future trends, and an understanding of the market sentiment. To make the task a lot more easier, we introduce **SMOOD**, a comprehensive stock sentiment analysis app designed to aid investors, market analysts, researchers, businesses and financial advisors with practical insights derived from the collective mood of the market.
 <br>
@@ -23,10 +23,10 @@ Deep Learning approaches have also seen their use for sentiment analysis of stoc
 In today’s ever-changing landscape of financial markets, accurately gauging and measuring market feedback is a crucial skill for any investor, financial advisor, trader or market researcher. However, since the advent of the internet the data has grown exponentially in size. Therefore, it is difficult to analyze the vast majority of news, twitter posts and financial reports to make an accurate decision. Manual analysis of the data in this way can lead to errors, bias or overheads, because the nature of capital markets is dynamic and prone to change quickly. Hence, there is an ever-growing need for automated market sentiment analysis systems that can efficiently process and analyze large volumes of textual data to provide timely and actionable insights into market sentiment trends and their potential impact on market movements. 
 <br>
 ## 4. Objectives
-SMood aims to achieve the following objectives:
--	**Automated Sentiment Analysis:** SMood will be able to perform automated sentiment analysis over a period to provide market sentiment of a stock using Natural Language Processing techniques.
-- **Real-Time Analysis:** SMood will analyze the data in real-time over a specific period, ensuring that it captures the market sentiment with maximum possible accuracy.
--	**Sentiment Classification:** SMood will collect news headlines and analyze it for sentiments, classifying it into positive, negative or neutral sentiments.
+SMOOD aims to achieve the following objectives:
+-	**Automated Sentiment Analysis:** SMOOD will be able to perform automated sentiment analysis over a period to provide market sentiment of a stock using Natural Language Processing techniques.
+- **Real-Time Analysis:** SMOOD will analyze the data in real-time over a specific period, ensuring that it captures the market sentiment with maximum possible accuracy.
+-	**Sentiment Classification:** SMOOD will collect news headlines and analyze it for sentiments, classifying it into positive, negative or neutral sentiments.
 -	**Contextualization:** It also displays the key news and events that influence the sentiment of the market.
 ## 5. Proposed Solution
 To solve the problem, we propose the transformer-based approach using the FinBERT model. It is a pre-trained Transformer model that was further trained on large financial corpus and serves as the backbone of the application. The model has been pre-trained by researchers on huge amounts of data and can form context and relationship between words. We then fine-tune the FinBERT model as needed to tailor it for our financial application.
@@ -47,11 +47,11 @@ Next up, the FinBERT model would be fine-tuned on semi-supervised data by first 
 <br>
 This model would then be used to infer the sentiment on the headlines stored in the database and then update the sentiments of each headlines, as well as the aggregated sentiments of each company over daily, weekly and monthly periods.
 ### 6.4 Integration Phase
-The integration phase in the development of SMood would be a crucial step where the components from various phases would be brought together to create a functional application. This phase would involve integrating the Supabase instance containing the financial sentiments into the backend infrastructure. The frontend interface would then be connected to the backend APIs, ensuring seamless communication and data exchange between the frontend and backend components. 
+The integration phase in the development of SMOOD would be a crucial step where the components from various phases would be brought together to create a functional application. This phase would involve integrating the Supabase instance containing the financial sentiments into the backend infrastructure. The frontend interface would then be connected to the backend APIs, ensuring seamless communication and data exchange between the frontend and backend components. 
 ### 6.5 Testing Phase
-The testing phase in the development of SMood would be significant in ensuring its reliability, functionality, and performance. This phase would involve a series of rigorous assessments to validate the behavior of the application and ensure that it meets the specified requirements. 
+The testing phase in the development of SMOOD would be significant in ensuring its reliability, functionality, and performance. This phase would involve a series of rigorous assessments to validate the behavior of the application and ensure that it meets the specified requirements. 
 ## 7.	Conclusion
-In conclusion, SMood represents a powerful tool for understanding market sentiment trends, encouraging users to make informed decisions in the dynamic world of finance. By leveraging advanced technologies such as Transformer-based architectures such as BERT, SMood automates the analysis of textual data from headlines, providing real-time insights into market sentiments.  Ultimately, SMood equips users with valuable insights to enhance their decision-making processes, mitigate risks, and capitalize on opportunities in dynamic market environments.
+In conclusion, SMOOD represents a powerful tool for understanding market sentiment trends, encouraging users to make informed decisions in the dynamic world of finance. By leveraging advanced technologies such as Transformer-based architectures such as BERT, SMOOD automates the analysis of textual data from headlines, providing real-time insights into market sentiments.  Ultimately, SMOOD equips users with valuable insights to enhance their decision-making processes, mitigate risks, and capitalize on opportunities in dynamic market environments.
 ## 8. Limitations
 The project suffers from the following limitations:
 <br>
