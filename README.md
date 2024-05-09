@@ -11,8 +11,8 @@ In today’s ever-changing landscape of financial markets, accurately gauging an
 <br>
 ## Objectives
 SMood aims to achieve the following objectives:
-●	Automated Sentiment Analysis: SMood will be able to perform automated sentiment analysis over a period to provide market sentiment of a stock using Natural Language Processing techniques.
-●	Real-Time Analysis: SMood will analyze the data in real-time over a specific period, ensuring that it captures the market sentiment with maximum possible accuracy.
-●	Sentiment Classification: SMood will collect news headlines and analyze it for sentiments, classifying it into positive, negative or neutral sentiments.
-●	Contextualization: It also displays the key news and events that influence the sentiment of the market.
-●	User-tailored assets: SMood will store user preferences and show them information about their favourite stocks.
+-	Automated Sentiment Analysis: SMood will be able to perform automated sentiment analysis over a period to provide market sentiment of a stock using Natural Language Processing techniques.
+- Real-Time Analysis: SMood will analyze the data in real-time over a specific period, ensuring that it captures the market sentiment with maximum possible accuracy.
+-	Sentiment Classification: SMood will collect news headlines and analyze it for sentiments, classifying it into positive, negative or neutral sentiments.
+-	Contextualization: It also displays the key news and events that influence the sentiment of the market.
+-	User-tailored assets: SMood will store user preferences and show them information about their favourite stocks.
