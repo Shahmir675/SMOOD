@@ -52,7 +52,15 @@ The integration phase in the development of SMood would be a crucial step where 
 The testing phase in the development of SMood would be significant in ensuring its reliability, functionality, and performance. This phase would involve a series of rigorous assessments to validate the behavior of the application and ensure that it meets the specified requirements. 
 ## 7.	Conclusion
 In conclusion, SMood represents a powerful tool for understanding market sentiment trends, encouraging users to make informed decisions in the dynamic world of finance. By leveraging advanced technologies such as Transformer-based architectures such as BERT, SMood automates the analysis of textual data from headlines, providing real-time insights into market sentiments.  Ultimately, SMood equips users with valuable insights to enhance their decision-making processes, mitigate risks, and capitalize on opportunities in dynamic market environments.
-## 8. References
+## 8. Limitations
+The project suffers from the following limitations:
+<br>
+<br>
+- Most of the APIs used for this application were free versions of the paid solutions and thus suffer from slow requests, errors, exceptions and resource exhaustion.
+- The given resources were not efficient for building the project in a small timeframe. However, the focus was on teamwork, learning and testing the capabilities.
+- The project could leverage the market sentiment to also predict the prices of each stock. However, this added a layer of complexity and use of more advanced models that required more resources.
+- Custom, user-based stock preferences were a key part that did not make it into the project.
+## 9. References
 1. [FinBERT: Financial Sentiment Analysis with Pre-trained Language Models](https://arxiv.org/abs/1908.10063)
 2. [FinBERT by HuggingFace🤗](https://huggingface.co/ProsusAI/finbert)
 3. [Attention Is All You Need](https://arxiv.org/abs/1706.03762)
