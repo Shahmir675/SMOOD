@@ -15,4 +15,3 @@ SMood aims to achieve the following objectives:
 - **Real-Time Analysis:** SMood will analyze the data in real-time over a specific period, ensuring that it captures the market sentiment with maximum possible accuracy.
 -	**Sentiment Classification:** SMood will collect news headlines and analyze it for sentiments, classifying it into positive, negative or neutral sentiments.
 -	**Contextualization:** It also displays the key news and events that influence the sentiment of the market.
--	**User-tailored assets:** SMood will store user preferences and show them information about their favourite stocks.
