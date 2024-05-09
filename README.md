@@ -46,6 +46,11 @@ Next up, the FinBERT model would be fine-tuned on semi-supervised data by first 
 <br>
 <br>
 This model would then be used to infer the sentiment on the headlines stored in the database and then update the sentiments of each headlines, as well as the aggregated sentiments of each company over daily, weekly and monthly periods.
+### 6.2 Backend Phase
+The SMOOD project uses Node.js with express.js and axios to fetch data and operate with APIs. A lot of well reputed npm packages have been used to facilitate the smooth and simple flow of the web-application. Vite is used as a development server to enhance the backend features of the application. Vite uses a faster build process and a unique approach to code splitting, which results in faster build times and faster load times for the end-user.
+<br>
+<br>
+Furthermore, the web-application utilizes PostgresSQL database and AWS cloud services for fetching the news and sentiment for the S&P 500 index. 
 ### 6.4 Integration Phase
 The integration phase in the development of SMOOD would be a crucial step where the components from various phases would be brought together to create a functional application. This phase would involve integrating the Supabase instance containing the financial sentiments into the backend infrastructure. The frontend interface would then be connected to the backend APIs, ensuring seamless communication and data exchange between the frontend and backend components. 
 ### 6.5 Testing Phase
